@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200..800&family=Monomakh&display=swap');
+
+:root{
+    --primary-color: #2C3539;
+    --secondary-color: #EB5406;
+    /* --text-color: #EB5406; */
+    --heading-font: "Anton", serif;
+    --subheading-font: "Monomakh", serif;
+    --para-font: "Dosis", serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}

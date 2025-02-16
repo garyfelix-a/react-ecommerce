@@ -1,0 +1,86 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .navbar-top {
+  padding: 10px 0px;
+  background-color: black;
+  color: white;
+  font-family: var(--subheading-font);
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .navbar-top marquee {
+  width: 50%;
+}
+
+nav .navbar-bottom {
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+nav .navbar-bottom h2 {
+  color: var(--primary-color);
+  font-family: var(--heading-font);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+nav .navbar-bottom .search-bar {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+nav .navbar-bottom .search-bar input {
+  padding: 10px;
+  font-size: 18px;
+  font-family: var(--subheading-font);
+  font-weight: 400;
+  font-style: normal;
+  width: 450px;
+}
+
+nav .navbar-bottom .search-bar button {
+  font-size: 20px;
+  padding: 10px 12px;
+  cursor: pointer;
+  background-color: white;
+  color: var(--primary-color);
+}
+
+nav .navbar-bottom .search-bar button:hover {
+  color: white;
+  background-color: var(--primary-color);
+  transition: all 0.3s ease;
+}
+
+.navbar-buttons {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.navbar-buttons i{
+    color: var(--secondary-color);
+}
+
+.navbar-buttons a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-family: var(--subheading-font);
+  font-weight: 400;
+  font-style: normal;
+}
