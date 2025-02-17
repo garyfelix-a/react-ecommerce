@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav>
       <div className="navbar-top">
         <marquee direction="left">
-          <p>Welcome to Sorgam - The Paradise Of E-commerce <span><i className="fa-solid fa-star" style={{color: "lightgreen"}}></i></span> One Stop Shop for Everything - Best Deals, Best Prices, Every Day!</p>
+          <p>Welcome to Sorgam - The Paradise Of E-Commerce <span><i className="fa-solid fa-star" style={{color: "#EB5406"}}></i></span> One Stop Shop for Everything - Best Deals, Best Prices, Every Day!</p>
         </marquee>
       </div>
       <div className="navbar-bottom">
