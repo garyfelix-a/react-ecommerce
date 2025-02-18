@@ -1,0 +1,11 @@
+.home-marquee marquee{
+    padding: 20px 0px;
+    /* background-color: rgb(0, 213, 0); */
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.home-marquee marquee p{
+    font-size: 22px;
+    font-family: var(--para-font);
+}
