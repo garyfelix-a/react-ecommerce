@@ -1,9 +1,15 @@
 import Carousel from "../components/Carousel"
 import Category from "../components/Category"
+import { getProducts } from "../services/api";
 import './Home.css';
 
 
 const Home = () => {
+
+  const products = getProducts();
+
+  console.log(products);
+
   return (
     <div className="home">
         <section className="hero">
